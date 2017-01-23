@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="17"
+    density="hdpi"
+    format="7"
+    timestamp="1011772660017"
+    token="-2298816545960994608" >
+
+    <task
+        name="javac"
+        duration="1885" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="177" />
+    <task
+        name="verifier"
+        duration="52" />
+
+    <artifact
+        location="D:\android studio\GAMES\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="35575646621550"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="D:\android studio\GAMES\app\build\intermediates\builds\debug\35575646621550\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

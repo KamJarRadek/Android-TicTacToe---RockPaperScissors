@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.radekgmail.jar.kam.games.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose the game you want to play"
+        android:id="@+id/textView"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dc7249"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:layout_width="74dp"
+            android:layout_height="41dp"
+            android:text="QUITE"
+            android:id="@+id/button"
+            android:layout_gravity="left|bottom"
+            android:textStyle="bold"
+            android:onClick="onQuiteCLick"
+
+            android:textSize="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:text="SCISSORS PAPER ROCK"
+            android:id="@+id/button2"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="#d32121" />
+
+        <Button
+            android:layout_width="113dp"
+            android:layout_height="50dp"
+            android:text="TIC TAC TOE"
+            android:id="@+id/runTTT"
+            android:layout_gravity="center_horizontal|bottom"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:onClick="onTTTClick"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="time"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:layout_gravity="right|top"
+            android:textSize="20dp" />
+
+    </FrameLayout>
+</RelativeLayout>
